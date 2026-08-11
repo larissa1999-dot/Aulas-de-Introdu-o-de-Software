@@ -1,0 +1,13 @@
+// Faça um Programa que peça a temperatura em graus Farenheit, transforme e mostre a temperatura em graus Celsius com uma casa decimal
+
+import java.util.Scanner;
+public class ex09{
+    public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Digite a temperatura em graus Farenheit:");
+double farenheit = sc.nextDouble();
+double celsius = (farenheit - 32) * 5/9;
+System.out.println("A temperatura em graus Celsius é: " + String.format("%.1f", celsius));
+sc.close();
+}
+}
