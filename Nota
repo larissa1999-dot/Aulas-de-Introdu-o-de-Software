@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Nota{
+    public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Digite sua primeira nota:");
+double nota1 = sc.nextDouble();
+System.out.print("Digite sua segunda nota:");
+double nota2 = sc.nextDouble();
+double notaMinima = (6*3)-nota1-nota2;
+System.out.println("Você precisa tirar no mínimo: " + notaMinima);
+sc.close();
+}
+}
