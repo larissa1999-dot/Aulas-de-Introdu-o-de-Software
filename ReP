@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class ReP{
+    public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.println("Digite o valor de A:");
+double valorA = sc.nextDouble();
+System.out.println("Digite o valor de B:");
+double valorB = sc.nextDouble();
+double potencia = Math.pow(valorA, valorB);
+double raiz = Math.sqrt(valorA);
+System.out.printf("%.1f\n" , potencia);
+System.out.printf("%.1f\n" , raiz);
+sc.close();
+}
+}
