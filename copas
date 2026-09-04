@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class copas{
+    public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Digite um ano:");
+int ano = sc.nextInt();
+int anoCopa = (ano-1930);
+int resto = anoCopa % 4;
+boolean anoSim = resto == 0;
+System.out.println("É ano de copa: " + anoSim);
+sc.close();
+}
+}
+
