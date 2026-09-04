@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Eq1 {
+        public static void main(String [] args) {
+            Scanner sc = new Scanner(System.in);
+System.out.print("Qual o valor de A? ");
+double letraA = sc.nextDouble();
+System.out.print("Qual o valor de B? ");
+double letraB = sc.nextDouble();
+System.out.print("Qual o valor de X? ");
+double letraX = sc.nextDouble();
+double resultado = (letraA*letraX)+letraB;
+System.out.println("O valor final da equação de primeiro grau é " + resultado);
+sc.close();
+        }
+}
