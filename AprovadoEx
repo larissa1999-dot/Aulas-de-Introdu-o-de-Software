@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class AprovadoEx{
+    public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Qual a média antes do exame? ");
+double médiaSemExame = sc.nextDouble();
+System.out.print("Qual a nota do exame? ");
+double notaExame = sc.nextDouble();
+double médiaComExame = (médiaSemExame+notaExame)/2;
+System.out.print("Quantas faltas o aluno teve? ");
+double faltas = sc.nextDouble();
+boolean aprovado = ((médiaSemExame>=6.0)&&(faltas<=9.0))||((médiaComExame>=5.0)&&(faltas<=9.0));
+System.out.println("O aluno foi aprovado? " + aprovado);
+sc.close();}}
