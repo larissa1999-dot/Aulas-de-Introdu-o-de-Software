@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Eq2{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+System.out.print("Digite o valor de A: ");
+double valorA = sc.nextDouble();
+System.out.print("Digite o valor de B: ");
+double valorB = sc.nextDouble();
+System.out.print("Digite o valor de C: ");
+double valorC = sc.nextDouble();
+System.out.print("Digite o valor de X: ");
+double valorX = sc.nextDouble();
+double resultado = (valorA*(Math.pow(valorX, 2)))+(valorB*valorX)+valorC;
+System.out.println("O resultado da equação é: " + resultado);
+sc.close();}
+        
+    }
