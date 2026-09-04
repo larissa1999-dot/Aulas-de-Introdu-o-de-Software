@@ -1,0 +1,15 @@
+//Faça um Programa em Java que peça o valor de a e b de uma equação do primeiro grau e calcule o valor de X.  x=−ba
+
+import java.util.Scanner;
+public class Req1{
+    public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Digite o valor de A:");
+double valorA = sc.nextDouble();
+System.out.print("Digite o valor de B:");
+double valorB = sc.nextDouble();
+double valorDeX = (-valorB)/valorA;
+System.out.println("O valor de X é: " + valorDeX);
+sc.close();
+}
+}
