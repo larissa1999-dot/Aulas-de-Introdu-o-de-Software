@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class CpF{
+    public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Digite a temperatura em graus Celsius:");
+double celsius = sc.nextDouble();
+double farenheit = (celsius * 9/5) + 32;
+System.out.println("A temperatura em graus Farenheit é: " + String.format("%.1f", farenheit));
+sc.close();
+}
+}
