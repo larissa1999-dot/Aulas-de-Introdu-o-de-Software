@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class imc{
+    public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Digite qual seu peso em kg:");
+double peso = sc.nextDouble();
+System.out.print("Digite qual sua altura em metros:");
+double altura = sc.nextDouble();
+double imc = peso/(Math.pow(altura,2));
+boolean normal = (imc<25.0)&&(imc>=20.0);
+System.out.println("Você está no peso ideal: " + normal);
+sc.close();
+}
+}
