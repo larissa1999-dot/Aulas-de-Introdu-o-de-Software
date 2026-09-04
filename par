@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class par{
+    public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Digite um número:");
+int numero = sc.nextInt();
+int par = numero % 2;
+boolean par1 = par == 0;
+System.out.println("O número é par: " + par1);
+sc.close();
+}
+}
