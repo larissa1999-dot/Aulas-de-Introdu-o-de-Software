@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Boo{
+    public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Digite o valor de A: ");
+double valorA = sc.nextDouble();
+System.out.print("Digite o valor de B: ");
+double valorB = sc.nextDouble();
+boolean q1 = valorA > valorB;
+boolean q2 = valorA < valorB;
+boolean q3 = valorA == valorB;
+System.out.println(q1);
+System.out.println(q2);
+System.out.println(q3);
+sc.close();
+}
+}
